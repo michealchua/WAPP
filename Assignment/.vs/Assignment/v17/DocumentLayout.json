@@ -1,28 +1,28 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Chua Mi Kai\\Documents\\GitHub\\mk\\Assignment\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|c:\\users\\chua mi kai\\documents\\github\\mk\\assignment\\assignment\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|c:\\users\\user\\documents\\github\\wapp\\assignment\\assignment\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|solutionrelative:assignment\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|C:\\Users\\Chua Mi Kai\\Documents\\GitHub\\mk\\Assignment\\assignment\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\assignment\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|solutionrelative:assignment\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\Assignment\\LoginPage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|C:\\Users\\Chua Mi Kai\\Documents\\GitHub\\mk\\Assignment\\assignment\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\assignment\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|solutionrelative:assignment\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|C:\\Users\\Chua Mi Kai\\Documents\\GitHub\\mk\\Assignment\\assignment\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\assignment\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|solutionrelative:assignment\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|C:\\Users\\Chua Mi Kai\\Documents\\GitHub\\mk\\Assignment\\assignment\\courselist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\assignment\\courselist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|solutionrelative:assignment\\courselist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
@@ -33,32 +33,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "LoginPage.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\Assignment\\LoginPage.aspx.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Edu2U\\Assignment\\Assignment\\LoginPage.aspx.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\Assignment\\LoginPage.aspx.cs",
               "ToolTip": "C:\\Users\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\Assignment\\LoginPage.aspx.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Edu2U\\Assignment\\Assignment\\LoginPage.aspx.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCMAAAAQAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\Assignment\\LoginPage.aspx.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T11:20:11.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-09T11:20:11.993Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "About.aspx",
-              "DocumentMoniker": "C:\\Users\\Chua Mi Kai\\Documents\\GitHub\\mk\\Assignment\\Assignment\\About.aspx",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\Assignment\\About.aspx",
               "RelativeDocumentMoniker": "Assignment\\About.aspx",
-              "ToolTip": "C:\\Users\\Chua Mi Kai\\Documents\\GitHub\\mk\\Assignment\\Assignment\\About.aspx",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\Assignment\\About.aspx",
               "RelativeToolTip": "Assignment\\About.aspx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2026-03-04T04:14:15.374Z",
@@ -68,9 +70,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "HomePage.aspx",
-              "DocumentMoniker": "C:\\Users\\Chua Mi Kai\\Documents\\GitHub\\mk\\Assignment\\Assignment\\HomePage.aspx",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\Assignment\\HomePage.aspx",
               "RelativeDocumentMoniker": "Assignment\\HomePage.aspx",
-              "ToolTip": "C:\\Users\\Chua Mi Kai\\Documents\\GitHub\\mk\\Assignment\\Assignment\\HomePage.aspx",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\Assignment\\HomePage.aspx",
               "RelativeToolTip": "Assignment\\HomePage.aspx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2026-03-03T10:24:26.591Z",
@@ -80,9 +82,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "CourseList.aspx",
-              "DocumentMoniker": "C:\\Users\\Chua Mi Kai\\Documents\\GitHub\\mk\\Assignment\\Assignment\\CourseList.aspx",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\Assignment\\CourseList.aspx",
               "RelativeDocumentMoniker": "Assignment\\CourseList.aspx",
-              "ToolTip": "C:\\Users\\Chua Mi Kai\\Documents\\GitHub\\mk\\Assignment\\Assignment\\CourseList.aspx",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\Assignment\\CourseList.aspx",
               "RelativeToolTip": "Assignment\\CourseList.aspx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2026-03-03T16:20:06.133Z",
@@ -92,9 +94,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Register.aspx",
-              "DocumentMoniker": "C:\\Users\\Chua Mi Kai\\Documents\\GitHub\\mk\\Assignment\\Assignment\\Register.aspx",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\Assignment\\Register.aspx",
               "RelativeDocumentMoniker": "Assignment\\Register.aspx",
-              "ToolTip": "C:\\Users\\Chua Mi Kai\\Documents\\GitHub\\mk\\Assignment\\Assignment\\Register.aspx",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\Assignment\\Register.aspx",
               "RelativeToolTip": "Assignment\\Register.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -105,9 +107,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "LoginPage.aspx",
-              "DocumentMoniker": "C:\\Users\\Chua Mi Kai\\Documents\\GitHub\\mk\\Assignment\\Assignment\\LoginPage.aspx",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\Assignment\\LoginPage.aspx",
               "RelativeDocumentMoniker": "Assignment\\LoginPage.aspx",
-              "ToolTip": "C:\\Users\\Chua Mi Kai\\Documents\\GitHub\\mk\\Assignment\\Assignment\\LoginPage.aspx",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\Assignment\\LoginPage.aspx",
               "RelativeToolTip": "Assignment\\LoginPage.aspx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2026-03-04T05:52:13.325Z",
