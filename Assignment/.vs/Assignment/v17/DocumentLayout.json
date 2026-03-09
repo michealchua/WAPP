@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|c:\\users\\chua mi kai\\downloads\\edu2u\\assignment\\assignment\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|solutionrelative:assignment\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|C:\\Users\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\assignment\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|solutionrelative:assignment\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|C:\\Users\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\assignment\\courselist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|solutionrelative:assignment\\courselist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|C:\\Users\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\assignment\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|solutionrelative:assignment\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|C:\\Users\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\assignment\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{13FA60C9-994E-4591-9AFB-9453ADD97741}|Assignment\\Assignment.csproj|solutionrelative:assignment\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "About.aspx",
+              "DocumentMoniker": "C:\\Users\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\Assignment\\About.aspx",
+              "RelativeDocumentMoniker": "Assignment\\About.aspx",
+              "ToolTip": "C:\\Users\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\Assignment\\About.aspx",
+              "RelativeToolTip": "Assignment\\About.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-03-04T04:14:15.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomePage.aspx",
+              "DocumentMoniker": "C:\\Users\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\Assignment\\HomePage.aspx",
+              "RelativeDocumentMoniker": "Assignment\\HomePage.aspx",
+              "ToolTip": "C:\\Users\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\Assignment\\HomePage.aspx",
+              "RelativeToolTip": "Assignment\\HomePage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-03-03T10:24:26.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CourseList.aspx",
+              "DocumentMoniker": "C:\\Users\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\Assignment\\CourseList.aspx",
+              "RelativeDocumentMoniker": "Assignment\\CourseList.aspx",
+              "ToolTip": "C:\\Users\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\Assignment\\CourseList.aspx",
+              "RelativeToolTip": "Assignment\\CourseList.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-03-03T16:20:06.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.aspx",
+              "DocumentMoniker": "C:\\Users\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\Assignment\\Register.aspx",
+              "RelativeDocumentMoniker": "Assignment\\Register.aspx",
+              "ToolTip": "C:\\Users\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\Assignment\\Register.aspx",
+              "RelativeToolTip": "Assignment\\Register.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-03-03T10:51:36.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginPage.aspx",
+              "DocumentMoniker": "C:\\Users\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\Assignment\\LoginPage.aspx",
+              "RelativeDocumentMoniker": "Assignment\\LoginPage.aspx",
+              "ToolTip": "C:\\Users\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\Assignment\\LoginPage.aspx",
+              "RelativeToolTip": "Assignment\\LoginPage.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-03-04T05:52:13.325Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
