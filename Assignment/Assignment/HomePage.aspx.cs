@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
+using System;
+using System.Data;
+using System.Data.SqlClient;
+using System.Configuration;
 
 namespace Assignment
 {
@@ -11,18 +9,28 @@ namespace Assignment
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                LoadCourses();
+            }
         }
 
-        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        private void LoadCourses()
         {
+            string connStr = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
 
-        }
+            using (SqlConnection conn = new SqlConnection(connStr))
+            {
+                string query = "SELECT CourseId, CourseName, Category, Description FROM Courses";
 
-        protected void btnExplore_Click(object sender, EventArgs e)
-        {
-            // 跳转到课程列表
-            Response.Redirect("CourseList.aspx");
+                SqlDataAdapter da = new SqlDataAdapter(query, conn);
+
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+
+                RepeaterCourses.DataSource = dt;
+                RepeaterCourses.DataBind();
+            }
         }
     }
 }
