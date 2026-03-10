@@ -79,7 +79,7 @@
 
     <!-- Hero Section -->
     <div class="hero">
-        <h1>Welcome to Our Learning System</h1>
+        <h1>Welcome to Our Learning System hi</h1>
         <p>Explore digital learning resources anytime</p>
         <a href="Register.aspx" class="button">Register Now</a>
     </div>
