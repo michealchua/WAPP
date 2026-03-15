@@ -33,7 +33,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,29 +45,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginPage.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\Assignment\\LoginPage.aspx.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\Assignment\\LoginPage.aspx.cs",
-              "ToolTip": "C:\\Users\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\Assignment\\LoginPage.aspx.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\Assignment\\LoginPage.aspx.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T11:20:11.993Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "About.aspx",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\Assignment\\About.aspx",
-              "RelativeDocumentMoniker": "Assignment\\About.aspx",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\Assignment\\About.aspx",
-              "RelativeToolTip": "Assignment\\About.aspx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-03-04T04:14:15.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "HomePage.aspx",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\Assignment\\HomePage.aspx",
@@ -75,20 +52,7 @@
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\Assignment\\HomePage.aspx",
               "RelativeToolTip": "Assignment\\HomePage.aspx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-03-03T10:24:26.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CourseList.aspx",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\Assignment\\CourseList.aspx",
-              "RelativeDocumentMoniker": "Assignment\\CourseList.aspx",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\Assignment\\CourseList.aspx",
-              "RelativeToolTip": "Assignment\\CourseList.aspx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-03-03T16:20:06.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-03T10:24:26.591Z"
             },
             {
               "$type": "Document",
@@ -105,6 +69,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "About.aspx",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\Assignment\\About.aspx",
+              "RelativeDocumentMoniker": "Assignment\\About.aspx",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\Assignment\\About.aspx",
+              "RelativeToolTip": "Assignment\\About.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-03-04T04:14:15.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginPage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\Assignment\\LoginPage.aspx.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\Assignment\\LoginPage.aspx.cs",
+              "ToolTip": "C:\\Users\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\Assignment\\LoginPage.aspx.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Chua Mi Kai\\Downloads\\Edu2U\\Assignment\\Assignment\\LoginPage.aspx.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T11:20:11.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CourseList.aspx",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\Assignment\\CourseList.aspx",
+              "RelativeDocumentMoniker": "Assignment\\CourseList.aspx",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\Assignment\\CourseList.aspx",
+              "RelativeToolTip": "Assignment\\CourseList.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-03-03T16:20:06.133Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "LoginPage.aspx",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\Assignment\\LoginPage.aspx",
@@ -112,8 +109,7 @@
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\WAPP\\Assignment\\Assignment\\LoginPage.aspx",
               "RelativeToolTip": "Assignment\\LoginPage.aspx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-03-04T05:52:13.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-04T05:52:13.325Z"
             }
           ]
         }
