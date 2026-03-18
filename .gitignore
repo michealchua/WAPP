@@ -17,3 +17,7 @@ packages/
 
 # Mac/system files
 .DS_Store
+
+# Ignore SQL Server database files
+*.mdf
+*.ldf
