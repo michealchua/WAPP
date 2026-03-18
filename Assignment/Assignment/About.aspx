@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="Assignment.About" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="Assignment.About" %>
 
 <!DOCTYPE html>
 <html>
@@ -72,10 +72,12 @@
     <div class="navbar">
         <span class="site-title">Edu2U</span>
         <a href="HomePage.aspx">Home</a>
+        <a href="CourseDetails.aspx">Courses</a>
         <a href="About.aspx">About</a>
-        <a href="CourseList.aspx">Courses</a>
-        <a href="Register.aspx">Register</a>
-        <a href="LoginPage.aspx">Login</a>
+        <asp:HyperLink ID="hlRegister" runat="server" NavigateUrl="Register.aspx">Register</asp:HyperLink>
+        <asp:HyperLink ID="hlLogin" runat="server" NavigateUrl="LoginPage.aspx">Login</asp:HyperLink>
+        <asp:HyperLink ID="hlLogout" runat="server" NavigateUrl="Logout.aspx" Visible="false">Logout</asp:HyperLink>
+        <asp:HyperLink ID="hlAdminDashboard" runat="server" NavigateUrl="AdminDashboard.aspx" Visible="false">Admin Dashboard</asp:HyperLink>
     </div>
 
     <form id="form1" runat="server">
