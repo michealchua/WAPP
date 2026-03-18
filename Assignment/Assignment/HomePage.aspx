@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HomePage.aspx.cs" Inherits="Assignment.HomePage" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HomePage.aspx.cs" Inherits="Assignment.HomePage" %>
 
 <!DOCTYPE html>
 <html>
@@ -53,6 +53,41 @@
             border-radius: 5px;
             margin-top: 20px;
         }
+        .course-container{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            gap:20px;
+            margin-top:30px;
+        }
+        
+        .course-card{
+            width:260px;
+            background:white;
+            border-radius:10px;
+            padding:20px;
+            box-shadow:0 4px 8px rgba(0,0,0,0.1);
+            text-align:left;
+        }
+        
+        .course-card h3{
+            margin-top:0;
+        }
+        
+        .category{
+            font-weight:bold;
+            color:#4e73df;
+        }
+        
+        .course-button{
+            display:inline-block;
+            margin-top:10px;
+            padding:8px 15px;
+            background:#1cc88a;
+            color:white;
+            text-decoration:none;
+            border-radius:5px;
+        }
 
         footer {
             text-align: center;
@@ -72,26 +107,70 @@
         <span class="site-title">Edu2U</span>
         <a href="HomePage.aspx">Home</a>
         <a href="About.aspx">About</a>
-        <a href="CourseList.aspx">Courses</a>
         <a href="Register.aspx">Register</a>
         <a href="LoginPage.aspx">Login</a>
     </div>
 
     <!-- Hero Section -->
     <div class="hero">
-        <h1>Welcome to Our Learning System</h1>
+        <h1>Welcome to Our Learning System </h1>
         <p>Explore digital learning resources anytime</p>
         <a href="Register.aspx" class="button">Register Now</a>
     </div>
 
     <!-- Content Section -->
     <div class="content">
-        <div>
-            <h2>Featured Courses</h2>
-            <p>Cybersecurity, Finance, Physchology, and more.</p>
-        </div>
-    </div>
 
+        <h2>Featured Courses</h2>
+        <p>Mathematics Year 1-6.</p>
+
+        <div class="course-container">
+
+            <div class="course-card">
+                <h3>Mathematics Year 1</h3>
+                <p class="category">Category: Primary School</p>
+                <p>Basic counting, Numbers, Counting and Comparing Numbers.</p>
+                <a href='CourseDetails.aspx?level=1' class="course-button">View Course</a>
+            </div>
+
+            <div class="course-card">
+                <h3>Mathematics Year 2</h3>
+                <p class="category">Category: Primary School</p>
+                <p>Simple Multiplication, Numbers and Counting.</p>
+                <a href='CourseDetails.aspx?level=2' class="course-button">View Course</a>
+            </div>
+
+            <div class="course-card">
+                <h3>Mathematics Year 3</h3>
+                <p class="category">Category: Primary School</p>
+                <p>Rounding and Place Value.</p>
+                <a href='CourseDetails.aspx?level=3' class="course-button">View Course</a>
+            </div>
+
+            <div class="course-card">
+                <h3>Mathematics Year 4</h3>
+                <p class="category">Category: Primary School</p>
+                <p>Decimals, Rounding and Place Value.</p>
+                <a href='CourseDetails.aspx?level=4' class="course-button">View Course</a>
+            </div>
+
+            <div class="course-card">
+                <h3>Mathematics Year 5</h3>
+                <p class="category">Category: Primary School</p>
+                <p>Number Sense & Place Value.</p>
+                <a href='CourseDetails.aspx?level=5' class="course-button">View Course</a>
+            </div>
+
+            <div class="course-card">
+                <h3>Mathematics Year 6</h3>
+                <p class="category">Category: Primary School</p>
+                <p>Operations with Integers.</p>
+                <a href='CourseDetails.aspx?level=6' class="course-button">View Course</a>
+            </div>
+
+        </div>
+
+    </div>
     <!-- Footer -->
     <footer>
         © 2026 Edu2U
