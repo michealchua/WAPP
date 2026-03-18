@@ -1,20 +1,19 @@
-Assignment/.vs/Assignment/FileContentIndex/18f3da61-e95c-48c1-ab49-ff8e8e344953.vsidx
-Assignment/.vs/Assignment/FileContentIndex/d2e48579-2226-4291-95a7-c6ab9678c944.vsidx
-Assignment/.vs/Assignment/FileContentIndex/614e999b-f8e9-4fb8-9e94-27732b28f4cd.vsidx
-Assignment/.vs/Assignment/FileContentIndex/97420206-a938-4b3a-bb35-21abfa2dc767.vsidx
-Assignment/.vs/Assignment/FileContentIndex/be469ecc-5991-4687-a331-16f891fa903d.vsidx
-Assignment/.vs/Assignment/FileContentIndex/d8960025-e6d8-4b97-917e-e7e8a09fe170.vsidx
-Assignment/.vs/Assignment/FileContentIndex/614e999b-f8e9-4fb8-9e94-27732b28f4cd.vsidx
-Assignment/.vs/Assignment/FileContentIndex/97420206-a938-4b3a-bb35-21abfa2dc767.vsidx
-Assignment/.vs/Assignment/FileContentIndex/be469ecc-5991-4687-a331-16f891fa903d.vsidx
-Assignment/.vs/Assignment/FileContentIndex/614e999b-f8e9-4fb8-9e94-27732b28f4cd.vsidx
-Assignment/.vs/Assignment/FileContentIndex/97420206-a938-4b3a-bb35-21abfa2dc767.vsidx
-Assignment/.vs/Assignment/FileContentIndex/be469ecc-5991-4687-a331-16f891fa903d.vsidx
-Assignment/.vs/Assignment/FileContentIndex/614e999b-f8e9-4fb8-9e94-27732b28f4cd.vsidx
-Assignment/.vs/Assignment/FileContentIndex/97420206-a938-4b3a-bb35-21abfa2dc767.vsidx
-Assignment/.vs/Assignment/FileContentIndex/be469ecc-5991-4687-a331-16f891fa903d.vsidx
-*.vsidx
-/Assignment/.vs/Assignment/CopilotIndices/17.14.1593.33849
-/Assignment/.vs/Assignment/CopilotIndices
-/Assignment/.vs/Assignment/config
-Assignment/.vs/Assignment/config/applicationhost.config
+# Visual Studio cache/options directory
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# NuGet Packages
+*.nupkg
+packages/
+!packages/build/
+!packages/packages.config
+
+# Mac/system files
+.DS_Store
