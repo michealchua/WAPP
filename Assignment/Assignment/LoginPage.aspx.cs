@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
@@ -13,7 +13,29 @@ namespace Assignment
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                string role = Session["Role"]?.ToString();
+                if (!string.IsNullOrEmpty(role))
+                {
+                    // 用户已登录
+                    hlRegister.Visible = false;
+                    hlLogin.Visible = false;
+                    hlLogout.Visible = true;
 
+                    // 额外处理 Admin/Instructor 导航
+                    if (role == "Admin")
+                    {
+                        // 可以显示 AdminDashboard 链接
+                    }
+                }
+                else
+                {
+                    hlRegister.Visible = true;
+                    hlLogin.Visible = true;
+                    hlLogout.Visible = false;
+                }
+            }
         }
 
         protected void btnLogin_Click(object sender, EventArgs e)
@@ -39,11 +61,11 @@ namespace Assignment
 
                 if (count > 0)
                 {
-                    // 登录成功，跳转到主页或管理员页面
-                    if (ddlRole.SelectedValue == "Admin")
-                        Response.Redirect("AdminDashboard.aspx");
-                    else
-                        Response.Redirect("HomePage.aspx");
+                    // 保存 Session
+                    Session["Username"] = txtUsername.Text;
+                    Session["Role"] = ddlRole.SelectedValue;
+
+                    Response.Redirect("HomePage.aspx");
                 }
                 else
                 {
