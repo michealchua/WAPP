@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CourseDetails.aspx.cs" Inherits="Assignment.CourseDetails" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CourseDetails.aspx.cs" Inherits="Assignment.CourseDetails" %>
 
 <!DOCTYPE html>
 <html>
@@ -77,18 +77,48 @@
     <div class="navbar">
         <span class="site-title">Edu2U</span>
         <a href="HomePage.aspx">Home</a>
+        <a href="CourseDetails.aspx">Courses</a>
         <a href="About.aspx">About</a>
-        <a href="Register.aspx">Register</a>
-        <a href="LoginPage.aspx">Login</a>
+        <asp:HyperLink ID="hlRegister" runat="server" NavigateUrl="Register.aspx">Register</asp:HyperLink>
+        <asp:HyperLink ID="hlLogin" runat="server" NavigateUrl="LoginPage.aspx">Login</asp:HyperLink>
+        <asp:HyperLink ID="hlLogout" runat="server" NavigateUrl="Logout.aspx" Visible="false">Logout</asp:HyperLink>
+        <asp:HyperLink ID="hlAdminDashboard" runat="server" NavigateUrl="AdminDashboard.aspx" Visible="false">Admin Dashboard</asp:HyperLink>
     </div>
 
     <!-- Content -->
     <div class="content">
         <div style="margin-top:20px; text-align:center;">
+            <asp:DropDownList ID="ddlYear" runat="server" CssClass="input">
+                <asp:ListItem Text="Year 1" Value="Year1"></asp:ListItem>
+                <asp:ListItem Text="Year 2" Value="Year2"></asp:ListItem>
+                <asp:ListItem Text="Year 3" Value="Year3"></asp:ListItem>
+                <asp:ListItem Text="Year 4" Value="Year4"></asp:ListItem>
+                <asp:ListItem Text="Year 5" Value="Year5"></asp:ListItem>
+                <asp:ListItem Text="Year 6" Value="Year6"></asp:ListItem>
+            </asp:DropDownList>
+            <br /><br />
 
-            <asp:Button ID="btnPDF1" runat="server" Text="Page 1" CssClass="button" OnClick="btnPDF1_Click" />
-            <asp:Button ID="btnPDF2" runat="server" Text="Page 2" CssClass="button" OnClick="btnPDF2_Click" />
-            <asp:Button ID="btnPDF3" runat="server" Text="Page 3" CssClass="button" OnClick="btnPDF3_Click" />
+            <!-- 选择页码 -->
+            <asp:DropDownList ID="ddlPage" runat="server" CssClass="input">
+                <asp:ListItem Text="Page 1" Value="1"></asp:ListItem>
+                <asp:ListItem Text="Page 2" Value="2"></asp:ListItem>
+                <asp:ListItem Text="Page 3" Value="3"></asp:ListItem>
+            </asp:DropDownList>
+
+            <br /><br />
+
+            <!-- 上传控件 -->
+            <asp:FileUpload ID="fuPdf" runat="server" CssClass="input" />
+            <asp:Button ID="btnUploadPdf" runat="server" Text="Upload PDF" CssClass="btn" OnClick="btnUploadPdf_Click" />
+
+            <br /><br />
+
+            <!-- 切换 PDF 页面 -->
+            <asp:Button ID="btnPage1" runat="server" Text="Page 1" CssClass="btn" OnClick="btnPage_Click" CommandArgument="1" />
+            <asp:Button ID="btnPage2" runat="server" Text="Page 2" CssClass="btn" OnClick="btnPage_Click" CommandArgument="2" />
+            <asp:Button ID="btnPage3" runat="server" Text="Page 3" CssClass="btn" OnClick="btnPage_Click" CommandArgument="3" />
+
+            <br /><br />
 
         </div>
 
