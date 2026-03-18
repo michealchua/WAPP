@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LoginPage.aspx.cs" Inherits="Assignment.LoginPage" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LoginPage.aspx.cs" Inherits="Assignment.LoginPage" %>
 
 <!DOCTYPE html>
 <html>
@@ -93,10 +93,11 @@
     <div class="navbar">
         <span class="site-title">Edu2U</span>
         <a href="HomePage.aspx">Home</a>
+        <a href="CourseDetails.aspx">Courses</a>
         <a href="About.aspx">About</a>
-        <a href="CourseList.aspx">Courses</a>
-        <a href="Register.aspx">Register</a>
-        <a href="Login.aspx">Login</a>
+        <asp:HyperLink ID="hlRegister" runat="server" NavigateUrl="Register.aspx">Register</asp:HyperLink>
+        <asp:HyperLink ID="hlLogin" runat="server" NavigateUrl="LoginPage.aspx">Login</asp:HyperLink>
+        <asp:HyperLink ID="hlLogout" runat="server" NavigateUrl="Logout.aspx" Visible="false">Logout</asp:HyperLink>
     </div>
 
     <!-- Hero Section -->
